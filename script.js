@@ -27,7 +27,6 @@ function slider() {
   } else {
     Start2 = 1;
   }
-  console.log(img1);
   img1.src = slides1[Start1 - 1];
   img2.src = slides2[Start2 - 1];
 }

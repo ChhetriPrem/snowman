@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
@@ -18,7 +19,10 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
+
     />
+    <link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">
+
   </head>
 
 <body>
@@ -29,7 +33,7 @@
 
         <div class="nav-bar-logo">
             <img src="images/snowmanLogo.png" 
-            alt=""
+            alt="snowman logo"
             height="50px" />
             <h2 style="color: aliceblue;">Snowman</h2>
         
@@ -37,10 +41,11 @@
 
         <div class="nav-bar-navigation">
             <ul>
-                <li>HOME</li>
-                <li>MENU</li>
-                <li>PRODUCTS</li>
-                <li>CONTACT</li>
+                <a href="#"><li>HOME</li></a>
+                <a href="#products-section-2"><li>MENU</li></a>
+                <a href="#products-section-3"><li>SERVICES</li></a>
+                <a href="#products-section-4"><li>CONTACT</li></a>
+
             </ul>
         </div>
 
@@ -50,17 +55,18 @@
 
     <main class="main">
         <div class="first">
-            <img id="img-cone" src="images/cone3.png" alt="" height="750px"">
+            <img id="img-cone" src="images/cone3.png" alt="Image of cone" height="750px"">
             <div class="snowman">
                
-               <h1>Welcome <br> to  <br> Snowman</h1>
+               <h1 style="padding-bottom: 40px; 
+               font-size: 70px;color: #EE5569; ">SNOWMAN</h1>
                <p class="first-p">Available Today</p>
 
 <div class="outlets-container">
   <div class="slider">
     <p>Chandmari</p>
     <div id="img-div">
-      <img id="img1" src="" alt="" />
+      <img id="img1" src="" alt="Changing image of cones flavour in Chandmari" />
     </div>
 
   </div>
@@ -68,7 +74,7 @@
   <div class="slider">
     <p style="color: rgb(94, 93, 93);">Kumarpara</p>
     <div id="img-div">
-      <img id="img2" src="" alt="" />
+      <img id="img2" src="" alt="Changing image of cones flavour in Chandmari" />
     </div>
 
   </div>
@@ -84,7 +90,7 @@
 
 
 
-    <section class="products-container">
+    <section id="products-section-2" class="products-container">
       <div class="products-sub">
         <h2 class="items">Our Popular Items</h2>
         <p>Check out our popular collection, a twist on the classic that makes every bite super duper delicious</p>
@@ -158,21 +164,21 @@
     </section>
 
 
-    <section class="services-container">
+    <section id="products-section-3" class="services-container">
       <h2 style="font-size: 32px;">Our Services</h2>
       <div class="sub-services">
 
         <div class="catering">
           <!-- <figcaption style="margin-bottom: 5px;" >Franchise</figcaption> -->
           <div class="catering-image-div">
-            <img class="catering-pic" src="images/catering.png" alt="" height="266px" width="296px">
+            <img class="catering-pic" src="images/catering.png" alt="image of catering service" height="266px" width="296px">
 
           </div>
 <div class="catering-text-div">
   Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>Illo culpa libero quis officia, consectetur illum <br>architecto tenetur nemo vero? Repellendus maxime id <br>nulla veniam fuga sit sed quae repudiandae aliquid.
   <div>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSemhn3bBSvHY8QuWqXEvSUXlxqlbll2Fekn44EVuYPj6caf2Q/viewform?usp=sharing" target="_blank"><button >Enquire now!</button></a> 
 
-    <button>Enquire now!</button>  
 </div>
 
 </div>
@@ -185,7 +191,7 @@
 <div class="franchise-text-div">
   Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br>Illo culpa libero quis officia, consectetur illum <br>architecto tenetur nemo vero? Repellendus maxime id <br>nulla veniam fuga sit sed quae repudiandae aliquid.
   <div>
-    <button>Enquire now!</button>
+   <a href="https://docs.google.com/forms/d/e/1FAIpQLSemhn3bBSvHY8QuWqXEvSUXlxqlbll2Fekn44EVuYPj6caf2Q/viewform?usp=sharing" target="_blank"><button >Enquire now!</button></a> 
 </div>
 
 </div>
@@ -197,8 +203,8 @@
     </div>
     </section>
 
-    <section class="contact-us">
-      <h2 style="text-align: center; padding: 30px;" >We'd love to hear from you</h2>
+    <section id="products-section-4" class="contact-us">
+      <h2 style="text-align: center; padding: 30px;" >We'd love to hear from you...</h2>
       <div class="outlets">
         <div class="outlet-1">
           <h3 style="text-align: center; padding: 30px;">Chandmari</h3>
